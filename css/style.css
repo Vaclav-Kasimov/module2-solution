@@ -58,7 +58,7 @@ h1{
 	border: solid;
 	border-width: 2px;
 	border-radius: 10px;
-	border-color: black;
+	border-color: #193300;
 }
 
 .box-header{
@@ -72,7 +72,7 @@ h1{
 	border-left-width: 2px;
 	border-top-width: 0px;
 	border-right-width: 0px;
-	border-color: black;
+	border-color: #193300;
 	background-color: #BAF9A3;
 	text-align: center;
 	font-weight: 900;

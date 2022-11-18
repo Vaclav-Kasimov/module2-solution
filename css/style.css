@@ -9,7 +9,7 @@ body {
 }
 
 h1{
-	font-size: 250%;
+	font-size: 175%;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -56,27 +56,39 @@ h1{
 	background-color: #D6EFCC;
 	margin: 5px;
 	border: solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-radius: 10px;
-	border-color: #193300;
+	border-color: black;
 }
 
 .box-header{
+	font-size: 125%;
 	float: right;
 	margin: 0;
 	border: solid;
 	border-radius: 0px;
-	border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 10px;
 	border-top-right-radius: 10px;
-	border-bottom-width: 2px;
-	border-left-width: 2px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
 	border-top-width: 0px;
 	border-right-width: 0px;
-	border-color: #193300;
-	background-color: #BAF9A3;
+	border-color: black;
 	text-align: center;
 	font-weight: 900;
 	width: 50%;
+}
+
+.box-header-type1{
+	background-color: #BAF9A3;
+}
+
+.box-header-type2{
+	background-color: #4aaf00;
+}
+
+.box-header-type3{
+	background-color: #dbff85;
 }
 
 .text{

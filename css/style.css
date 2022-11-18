@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 90%;
+	font-family: 'Nunito';
+	background-color: #EAF0E8;
+}
+
+h1{
+	font-size: 250%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.container{
+	margin: 15px;
+	width: 100%;
+}
+
+.row{
+	width: 100%;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: calc(33% - 10px); /* box-sizing doesn't include MARGIN, so here margin subtracted from width */
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: calc(50% - 10px);
+	}
+	.col-md-12{
+		float: left;
+		width: calc(100% - 10px);
+	}
+}
+
+@media (max-width: 767px){
+	.col-s-12{
+		float: left;
+		width: calc(100% - 10px);
+
+	}
+}
+
+.textfield {
+	background-color: #D6EFCC;
+	margin: 5px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: black;
+}
+
+.box-header{
+	float: right;
+	margin: 0;
+	border: solid;
+	border-radius: 0px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 10px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-color: black;
+	background-color: #BAF9A3;
+	text-align: center;
+	font-weight: 900;
+	width: 50%;
+}
+
+.text{
+	margin: 5px;
+	margin-top: 25px;
+}
